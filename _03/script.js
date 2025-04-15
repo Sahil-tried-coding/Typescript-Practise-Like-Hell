@@ -1,9 +1,9 @@
 var form = document.querySelector("form");
 var names = document.getElementById("name");
-var age = document.getElementById("age");
+var agea = document.getElementById("age");
 form.addEventListener("submit", function (e) {
     e.preventDefault();
-    if (names.value === '' || age.value === '') {
+    if (names.value === '' || agea.value === '') {
         alert("name/age missiing");
     }
 });
